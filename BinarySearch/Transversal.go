@@ -7,7 +7,7 @@ import "fmt"
 func InOrder(root *Node) {
 	if root != nil {
 		InOrder(root.left)
-		fmt.Print(root.value)
+		fmt.Printf("%d ", root.value)
 		InOrder(root.right)
 	}
 }
@@ -16,7 +16,7 @@ func InOrder(root *Node) {
 // Traverse the root, left sub-tree, right sub-tree
 func PreOrder(root *Node) {
 	if root != nil {
-		fmt.Print(root.value)
+		fmt.Printf("%d ", root.value)
 		PreOrder(root.left)
 		PreOrder(root.right)
 	}
@@ -26,8 +26,8 @@ func PreOrder(root *Node) {
 // Traverse left sub-tree, right sub-tree, root
 func PostOrder(root *Node) {
 	if root != nil {
-		fmt.Print(root.value)
 		PostOrder(root.left)
 		PostOrder(root.right)
+		fmt.Printf("%d ", root.value)
 	}
 }

@@ -9,10 +9,10 @@ func BinarySearchTreeOperation() {
 	// Inserting some data
 	test.Insert(10)
 	test.Insert(20)
-	test.Insert(30)
 	test.Insert(40)
-	test.Insert(50)
 	test.Insert(60)
+	test.Insert(30)
+	test.Insert(50)
 
 	// InOrder operation
 	InOrder(test.Root)

@@ -1,8 +1,9 @@
 package main
 
 import (
-	ayobst "ayoConnect/BinarySearch"
-	ayorob "ayoConnect/Robber"
+	ayobst "RajatYadav-GoLang-Coding-Exercise-GoLang-Software-Engineer/BinarySearch"
+
+	ayorob "RajatYadav-GoLang-Coding-Exercise-GoLang-Software-Engineer/Robber"
 )
 
 func main() {
